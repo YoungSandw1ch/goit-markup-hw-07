@@ -13,21 +13,21 @@
 
 <body>
   <header class="page-header">
-    <div class="container thumb">
+    <div class="container page-header__container">
       <nav class="menu">
-        <a class="menu__logo logo" href="#" target="_blank" rel="noreferrer noopener">Web<span
-            class="logo__dark">Studio</span></a>
+        <a class="logo menu__logo" href="#" target="_blank" rel="noreferrer noopener">Web<span
+            class="logo__text">Studio</span></a>
         <ul class="navigation">
-          <li class="navigation__item"><a class="navigation__link link navigation__link--current"
+          <li class="navigation__item"><a class="navigation__link link navigation__link--active"
               href="./index.html">Студия</a></li>
           <li class="navigation__item"><a class="navigation__link link" href="./portfolio.html">Портфолио</a></li>
           <li class="navigation__item"><a class="navigation__link link" href="#">Контакты</a></li>
         </ul>
       </nav>
-      <ul class="contacts">
+      <ul class="contacts page-header__contacts">
         <li class="contacts__item">
           <a class="contacts__link link" href="mailto:info@devstudio.com">
-            <svg class="contacts__icon" width="16" height="12">
+            <svg class="contacts__icon contacts__icon--left" width="16" height="12">
               <use href="./images/icons.svg#icon-mail"></use>
             </svg>
             info@devstudio.com
@@ -35,7 +35,7 @@
         </li>
         <li class="contacts__item">
           <a class="contacts__link link" href="tel:+380961111111">
-            <svg class="contacts__icon" width="10" height="16">
+            <svg class="contacts__icon contacts__icon--left" width="10" height="16">
               <use href="./images/icons.svg#icon-smartphone"></use>
             </svg>
             +38 096 111 11 11
@@ -49,9 +49,9 @@
     <!-----------------------------------------------hero------------------------------------------------------------>
 
     <section class="hero">
-      <div class="container box">
+      <div class="container hero__container">
         <h1 class="hero__title">Эффективные решения для вашего бизнеса</h1>
-        <button class="hero__btn button" data-modal-open type="button">Заказать услугу</button>
+        <button class="button hero__btn" data-modal-open type="button">Заказать услугу</button>
       </div>
     </section>
 
@@ -108,9 +108,9 @@
 
     <!-----------------------------------------------section-works----------------------------------------------->
 
-    <section class="section section--padding">
+    <section class="section section--no-padding">
       <div class="container">
-        <h2 class="title">Чем мы занимаемся</h2>
+        <h2 class="title section__title">Чем мы занимаемся</h2>
         <ul class="works">
           <li class="works__item">
             <img class="works__img" src="./images/what-we-do/what-we-do-1.jpg" alt=" пишет код на клавиатуре"
@@ -139,9 +139,9 @@
 
     <!-----------------------------------------------section-team--------------------------------------------------->
 
-    <section class="section background">
+    <section class="section section--dark-bg">
       <div class="container">
-        <h2 class="title">Наша команда</h2>
+        <h2 class="title section__title">Наша команда</h2>
         <ul class="team">
           <li class="team__item">
             <img class="team__img" src="./images/team/team-1.jpg" alt="член команды мужчина" width="270" height="260">
@@ -299,7 +299,7 @@
 
     <section class="section">
       <div class="container">
-        <h2 class="title">Постоянные клиенты</h2>
+        <h2 class="title section__title">Постоянные клиенты</h2>
         <ul class="clients">
           <li class="clients__item">
             <a class="clients__link" href="#0" target="_blank" rel="noreferrer noopener">
@@ -350,11 +350,11 @@
 
   <!----------------------------------------------footer------------------------------------------------->
 
-  <footer class="footer">
-    <div class="container footer__thumb">
-      <div class="footer__box">
-        <a class="footer__logo logo" href="#" target="_blank" rel="noreferrer noopener">Web<span
-            class="logo__light">Studio</span></a>
+  <footer class="page-footer">
+    <div class="container page-footer__container">
+      <div class="page-footer__box">
+        <a class="page-footer__logo logo" href="#" target="_blank" rel="noreferrer noopener">Web<span
+            class="logo__text logo__text--light">Studio</span></a>
         <address class="address">
           <ul class="address__list">
             <li class="address__item"><a class="address__map" href="https://goo.gl/maps/3mmmgACdLDucJXHp8"
@@ -366,8 +366,8 @@
         </address>
       </div>
       <!----------------------------------social-links---------------------------->
-      <div class="footer__box">
-        <p class="footer__text">присоединяйтесь</p>
+      <div class="page-footer__box">
+        <p class="page-footer__text">присоединяйтесь</p>
         <ul class="social social--position">
           <li class="social__item">
             <a class="social__link social__link--style" href="#0" target="_blank" rel="noreferrer noopener"
@@ -404,8 +404,8 @@
         </ul>
       </div>
       <!----------------------------------subscribe---------------------------->
-      <div class="footer__box">
-        <p class="footer__text">Подпишитесь на рассылку</p>
+      <div class="page-footer__box">
+        <p class="page-footer__text">Подпишитесь на рассылку</p>
         <form class="subscribe">
           <input class="subscribe__input" type="email" name="email" placeholder="E-mail">
           <button class="subscribe__btn button" type="submit">
