@@ -339,6 +339,7 @@ body {
   justify-content: center;
   width: 44px;
   height: 44px;
+  outline: none;
   color: var(--iconColor);
   border-radius: 50%;
   transition: background-color var(--mainTransitionTime) var(--mainTransition), color var(--mainTransitionTime) var(--mainTransition);
@@ -368,6 +369,7 @@ body {
   width: 170px;
   height: 92px;
   border-radius: 4px;
+  outline: none;
   border: 1px solid var(--iconColor);
   color: var(--iconColor);
   transition: border-color var(--mainTransitionTime) var(--mainTransition), color var(--mainTransitionTime) var(--mainTransition);
