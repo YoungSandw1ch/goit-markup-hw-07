@@ -1,0 +1,24 @@
+.page-header {
+  letter-spacing: 0.02em;
+  font-weight: 500;
+  border-bottom: 1px solid #ececec;
+
+  &__container {
+    display: flex;
+  }
+
+  &__contacts {
+    margin-left: auto;
+  }
+}
+
+.menu {
+  display: flex;
+
+  &__logo {
+    padding-top: 24px;
+    padding-bottom: 24px;
+    margin-right: 93px;
+  }
+}
+

@@ -1,0 +1,17 @@
+.works {
+  display: flex;
+
+  &__item {
+    position: relative;
+    flex-basis: calc((100% - 60px) / 3);
+  }
+
+  &__img {
+  }
+
+  &__box {
+  }
+
+  &__label {
+  }
+}
