@@ -8,6 +8,10 @@
   &--dark-bg {
     background-color: var(--sectionBg);
   }
+
+  &__filter {
+    margin-bottom: 50px;
+  }
 }
 
 .section__title {
@@ -20,3 +24,4 @@
     text-align: center;
   }
 }
+

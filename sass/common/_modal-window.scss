@@ -70,47 +70,10 @@
   border-radius: 50%;
   transition: fill var(--mainTransitionTime) var(--mainTransition);
 
-  &:
+  &:focus,
+  &:hover {
+    .modal__icon {
+      fill: var(--brandColor);
+    }
+  }
 }
-
-
-
-.form {
-
-		&__field {
-		}
-
-		&__wrapper {
-		}
-
-		&__input {
-		}
-
-		&__icon {
-		}
-
-		&__textarea {
-		}
-
-		&__button {
-		}
-}
-.agreement {
-
-		&__checkbox {
-		}
-
-		&__icon {
-		}
-
-		&__icon--left {
-		}
-
-		&__label {
-		}
-
-		&__link {
-		}
-}
-
-

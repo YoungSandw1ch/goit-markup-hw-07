@@ -1,8 +1,10 @@
+//=====utilits
 @import "./utils/variables";
 @import "./utils/nullstyle";
-@import "./common/container";
 @import "./utils/mixins";
 @import "./utils/visually-hidden";
+//=====page-studio-component
+@import "./common/container";
 @import "./components/page-header";
 @import "./common/logo";
 @import "./components/navigation";
@@ -17,4 +19,9 @@
 @import "./components/clients";
 @import "./components/page-footer";
 @import "./components/subscribe";
+//=====page-portfolio-component
+
+//=====modal-window==============
+@import "./common/modal-window";
+@import "./common/modal-form";
 
