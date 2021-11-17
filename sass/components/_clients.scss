@@ -1,0 +1,32 @@
+.clients {
+  display: flex;
+
+  &__icon {
+    fill: currentColor;
+  }
+}
+
+.clients__item{
+
+  &:not(:last-child) {
+  margin-right: 30px;
+  }
+}
+
+.clients__link {
+  @include flex-center();
+  width: 170px;
+  height: 92px;
+  border-radius: 4px;
+  outline: none;
+  border: 1px solid var(--iconColor);
+  color: var(--iconColor);
+  transition: border-color var(--mainTransitionTime) var(--mainTransition), 
+  color var(--mainTransitionTime) var(--mainTransition);
+
+  &:focus,
+  &:hover {
+    color: var(--brandColor);
+    border-color: var(--brandColor);
+  }
+}

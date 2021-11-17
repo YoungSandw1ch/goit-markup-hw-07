@@ -2,9 +2,7 @@
   display: flex;
 
 	&__box {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    @include flex-center();
     background-color: #F5F4FA;
     border-radius: 4px;
     margin-bottom: 30px;
