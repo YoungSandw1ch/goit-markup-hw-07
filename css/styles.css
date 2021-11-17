@@ -648,9 +648,7 @@ body {
   fill: var(--brandColor);
 }
 /* .modal__icon {} */
-.modal__wrapper {
 
-}
 .modal__text {
   font-size: 20px;
   line-height: 1.15;
