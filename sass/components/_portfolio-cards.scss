@@ -1,59 +1,6 @@
 .portfolio {
 	display: flex;
   flex-wrap: wrap;
-
-	&__thumb {
-		position: relative;
-		overflow: hidden;
-	}
-
-	&__img {
-		display: block;
-	}
-
-	&__overlay {
-		position: absolute;
-		left: 0;
-		bottom: 0;
-		width: 100%;
-		height: 100%;
-		background-color: rgba(33, 150, 243, 0.9);
-	
-		opacity: 0;
-		transform: translateY(100%);
-		transition: transform var(--mainTransitionTime) var(--mainTransition), 
-		opacity var(--mainTransitionTime) var(--mainTransition);
-	}
-
-	&__description {
-		font-size: 18px;
-		line-height: 1.56;
-		letter-spacing: var(--mainLetterSpacing);
-		padding: 63px 24px;
-		color: var(--lightFontColor);
-	}
-
-	&__box {
-		padding: 20px 24px;
-		background-color: var(--nullBg);
-		border: 1px solid #eeeeee;
-		border-top: none;
-	}
-
-	&__title {
-		font-size: 18px;
-		line-height: 2;
-		letter-spacing: 0.06em;
-		font-weight: 700;
-		margin-bottom: 4px;
-	}
-
-	&__text {
-		font-size: 16px;
-		line-height: 1.87;
-		letter-spacing: var(--mainLetterSpacing);
-		color: var(--secondFontColor);
-	}
 }
 
 .portfolio__item {
@@ -85,4 +32,52 @@
 			transform: translateY(0);
 		}
 	}
+}
+
+.portfolio__thumb {
+	position: relative;
+	overflow: hidden;
+}
+
+.portfolio__overlay {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(33, 150, 243, 0.9);
+	opacity: 0;
+	transform: translateY(100%);
+	transition: transform var(--mainTransitionTime) var(--mainTransition), 
+	opacity var(--mainTransitionTime) var(--mainTransition);
+}
+
+.portfolio__description {
+	padding: 63px 24px;
+	font-size: 18px;
+	line-height: 1.56;
+	letter-spacing: var(--mainLetterSpacing);
+	color: var(--lightFontColor);
+}
+
+.portfolio__box {
+	padding: 20px 24px;
+	background-color: var(--nullBg);
+	border: 1px solid #eeeeee;
+	border-top: none;
+}
+
+.portfolio__title {
+	margin-bottom: 4px;
+	font-size: 18px;
+	line-height: 2;
+	letter-spacing: 0.06em;
+	font-weight: 700;
+}
+
+.portfolio__text {
+	font-size: 16px;
+	line-height: 1.87;
+	letter-spacing: var(--mainLetterSpacing);
+	color: var(--secondFontColor);
 }
