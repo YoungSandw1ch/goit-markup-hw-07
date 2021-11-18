@@ -189,14 +189,7 @@ body {
 
 .contacts__icon {
   fill: currentColor;
-}
-
-.contacts__icon--left {
   margin-right: 10px;
-}
-
-.contacts__icon--right {
-  margin-left: 10px;
 }
 
 .hero {
