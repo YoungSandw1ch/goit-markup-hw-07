@@ -851,29 +851,14 @@ body {
   fill: var(--brandColor);
 }
 
-.form__wrapper {
-  position: relative;
-  display: block;
-}
-
-.form__icon {
-  position: absolute;
-  left: 12px;
-  top: 11px;
-  -webkit-transition: fill var(--mainTransitionTime) var(--mainTransition);
-  transition: fill var(--mainTransitionTime) var(--mainTransition);
-}
-
-.form__button {
-  margin-left: auto;
-  margin-right: auto;
+.form {
+  font-size: 12px;
+  line-height: 1.17;
 }
 
 .form__field {
   position: relative;
   display: block;
-  font-size: 12px;
-  line-height: 1.17;
   letter-spacing: 0.01em;
   color: var(--secondFontColor);
   margin-bottom: 10px;
@@ -887,8 +872,13 @@ body {
   margin-bottom: 30px;
 }
 
-.form__textarea,
-.form__input {
+.form__wrapper {
+  position: relative;
+  display: block;
+}
+
+.form__input,
+.form__textarea {
   display: block;
   width: 100%;
   height: 40px;
@@ -900,8 +890,8 @@ body {
   transition: border-color var(--mainTransitionTime) var(--mainTransition);
 }
 
-.form__textarea:focus,
-.form__input:focus {
+.form__input:focus,
+.form__textarea:focus {
   border-color: var(--brandColor);
   outline: none;
 }
@@ -942,6 +932,19 @@ body {
   line-height: 1.17;
   letter-spacing: 0.01em;
   color: rgba(117, 117, 117, 0.5);
+}
+
+.form__icon {
+  position: absolute;
+  left: 12px;
+  top: 11px;
+  -webkit-transition: fill var(--mainTransitionTime) var(--mainTransition);
+  transition: fill var(--mainTransitionTime) var(--mainTransition);
+}
+
+.form__button {
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .agreement {
