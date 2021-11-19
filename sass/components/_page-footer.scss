@@ -2,25 +2,11 @@
   background-color: var(--mainBg);
   padding-top: 60px;
   padding-bottom: 60px;
+}
 
-  &__container {
-    display: flex;
-    align-items: baseline;
-  }
-
-  &__logo {
-    display: block;
-    margin-bottom: 20px;
-  }
-
-  &__text {
-    line-height: 1.14;
-    font-weight: 700;
-    letter-spacing: var(--mainLetterSpacing);
-    text-transform: uppercase;
-    color: var(--lightFontColor);
-    margin-bottom: 20px;
-  }
+.page-footer__container {
+  display: flex;
+  align-items: baseline;
 }
 
 .page-footer__box {
@@ -34,19 +20,27 @@
   }
 }
 
+.page-footer__logo {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.page-footer__text {
+  line-height: 1.14;
+  font-weight: 700;
+  letter-spacing: var(--mainLetterSpacing);
+  text-transform: uppercase;
+  color: var(--lightFontColor);
+  margin-bottom: 20px;
+}
 
 .address {
+  font-style: normal;
+}
 
-  &__list {
-    font-style: normal;
-    line-height: 1.71;
-    letter-spacing: var(--mainLetterSpacing);
-  }
-
-  &__map {
-    text-decoration: none;
-    color: var(--lightFontColor);
-  }
+.address__list {
+  line-height: 1.71;
+  letter-spacing: var(--mainLetterSpacing);
 }
 
 .address__item {
@@ -64,5 +58,9 @@
   &:hover {
     color: var(--brandColor);
   }
+}
+
+.address__map {
+  color: var(--lightFontColor);
 }
 
