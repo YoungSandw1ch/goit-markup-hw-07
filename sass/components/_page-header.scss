@@ -2,23 +2,22 @@
   letter-spacing: 0.02em;
   font-weight: 500;
   border-bottom: 1px solid #ececec;
+}
 
-  &__container {
-    display: flex;
-  }
+.page-header__container {
+  display: flex;
+}
 
-  &__contacts {
-    margin-left: auto;
-  }
+.page-header__contacts {
+  margin-left: auto;
 }
 
 .menu {
   display: flex;
-
-  &__logo {
-    padding-top: 24px;
-    padding-bottom: 24px;
-    margin-right: 93px;
-  }
 }
 
+.menu__logo {
+  padding-top: 24px;
+  padding-bottom: 24px;
+  margin-right: 93px;
+}
