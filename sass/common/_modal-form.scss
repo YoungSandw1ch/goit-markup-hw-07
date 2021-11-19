@@ -72,20 +72,19 @@
 
 .agreement {
   @include flex-center();
-
-  &__checkbox{}
-
-  &__label {
-    font-size: 14px;
-    line-height: 1.71;
-    letter-spacing: var(--mainLetterSpacing);
-  }
-
-  &__link {
-    text-decoration: underline;
-    color: var(--brandColor);
-  }
 }
+
+.agreement__label {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: var(--mainLetterSpacing);
+}
+
+.agreement__link {
+  text-decoration: underline;
+  color: var(--brandColor);
+}
+
 /* ------------------------------check-icon-focus for tab--------------------- */
 .agreement__checkbox:focus + .agreement__icon {
   outline: 1px solid var(--brandColor);

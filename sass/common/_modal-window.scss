@@ -28,12 +28,13 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%) scale(1);
+
+  padding: 40px;
   width: 528px;
   height: 581px;
-  background-color: var(--nullBg);
+
   border-radius: 4px;
-  padding: 40px;
-  
+  background-color: var(--nullBg);
   opacity: 1;
   box-shadow: 
   0px 1px 3px rgba(0, 0, 0, 0.12), 
@@ -41,19 +42,16 @@
   0px 2px 1px rgba(0, 0, 0, 0.2);
   transition: transform var(--mainTransitionTime) var(--mainTransition), 
   opacity var(--mainTransitionTime) var(--mainTransition);
+}
 
-	&__icon {
-	}
-
-  &__text {
-    font-size: 20px;
-    line-height: 1.15;
-    font-weight: 700;
-    letter-spacing: var(--mainLetterSpacing);
-    text-align: center;
-    margin-bottom: 12px;
-    color: var(--firstFontColor);
-	}
+.modal__text {
+  font-size: 20px;
+  line-height: 1.15;
+  font-weight: 700;
+  letter-spacing: var(--mainLetterSpacing);
+  text-align: center;
+  margin-bottom: 12px;
+  color: var(--firstFontColor);
 }
 
 .modal__close {
